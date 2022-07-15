@@ -1,4 +1,4 @@
-package Lista5HerancaExercicio2;
+package Lista5HerancaExercicio2.Lista5HerancaExercicio2;
 
 import java.util.Scanner;
 
@@ -11,9 +11,9 @@ public class ClasseTeste {
 		
 		TecnicoAdmnistrativo tecnico = new TecnicoAdmnistrativo();
 		
-		Curso curso1 = new Curso("EngenhariaDaComputação", "111111", "450");
+		Curso curso1 = new Curso("EngenhariaDaComputaï¿½ï¿½o", "111111", "450");
 		
-		Disciplina disciplina1 = new Disciplina("LogicaProgramação", "1111", "180");
+		Disciplina disciplina1 = new Disciplina("LogicaProgramaï¿½ï¿½o", "1111", "180");
 		Disciplina disciplina2 = new Disciplina("Calculos", "2222", "150");
 		Disciplina disciplina3 = new Disciplina("BancoDeDados", "3333", "140");
 		Disciplina[] disciplinas = new Disciplina[3];
@@ -27,7 +27,7 @@ public class ClasseTeste {
 		
 		Disciplina disciplina4 = new Disciplina("Algoritmos", "1111", "180");
 		Disciplina disciplina5 = new Disciplina("Matematica", "2222", "150");
-		Disciplina disciplina6 = new Disciplina("Admnistração", "3333", "140");
+		Disciplina disciplina6 = new Disciplina("Admnistraï¿½ï¿½o", "3333", "140");
 		disciplinas[0] = disciplina4;
 		disciplinas[1] = disciplina5;
 		disciplinas[2] = disciplina6;
@@ -42,7 +42,7 @@ public class ClasseTeste {
 		
 		int opcao = 0;
 		String nomeCurso;
-//		String disciplina;
+		String disciplina;
 		
 		while (opcao != 8) {
 			System.out.println("----------------Universidade----------------");
@@ -64,13 +64,13 @@ public class ClasseTeste {
 				System.out.println("Informe o nome do aluno: ");
 				aluno.setNome(read.next());
 				
-				System.out.println("Informe o número de matrícula do aluno: ");
+				System.out.println("Informe o nï¿½mero de matrï¿½cula do aluno: ");
 				aluno.setNumMatricula(read.next());
 				
 				System.out.println("Informe o CPF do aluno: ");
 				aluno.setCpf(read.next());
 				
-				System.out.println("Informe o curso no qual o aluno está matriculado: ");
+				System.out.println("Informe o curso no qual o aluno estï¿½ matriculado: ");
 				nomeCurso = read.next();
 				
 				for (int i = 0; i < cursos.length; i++) {
@@ -106,13 +106,13 @@ public class ClasseTeste {
 				System.out.println("Informe o CTPS do professor: ");
 				professor.setTelefone(read.next());
 				
-				System.out.println("Informe o salário bruto do professor: ");
+				System.out.println("Informe o salï¿½rio bruto do professor: ");
 				professor.setSalario(read.nextDouble());
 				
-				System.out.println("Informe a titulação do professor: ");
+				System.out.println("Informe a titulaï¿½ï¿½o do professor: ");
 				professor.setTitulacao(read.next());
 				
-				System.out.println("Informe a área de pesquisa do professor: ");
+				System.out.println("Informe a ï¿½rea de pesquisa do professor: ");
 				professor.setAreaPesquisa(read.next());
 				
 				System.out.println("Informe o curso ministrado pelo professor: ");
@@ -141,7 +141,7 @@ public class ClasseTeste {
 				System.out.println("Informe o CTPS do tecnico: ");
 				tecnico.setTelefone(read.next());
 				
-				System.out.println("Informe o salário bruto do tecnico: ");
+				System.out.println("Informe o salï¿½rio bruto do tecnico: ");
 				tecnico.setSalario(read.nextDouble());
 				
 				System.out.println("Informe o cargo do tecnico: ");

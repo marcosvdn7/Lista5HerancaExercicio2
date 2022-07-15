@@ -1,4 +1,4 @@
-package Lista5HerancaExercicio2;
+package Lista5HerancaExercicio2.Lista5HerancaExercicio2;
 
 public class Curso {
 	
