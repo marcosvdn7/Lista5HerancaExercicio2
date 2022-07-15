@@ -42,7 +42,7 @@ public class ClasseTeste {
 		
 		int opcao = 0;
 		String nomeCurso;
-		String disciplina;
+		//String disciplina;
 		
 		while (opcao != 8) {
 			System.out.println("----------------Universidade----------------");
