@@ -1,4 +1,4 @@
-package ListaOOB5HerançaExercicio2;
+package Lista5HerancaExercicio2;
 
 public class Aluno {
 
