@@ -1,4 +1,4 @@
-package ListaOOB5HerançaExercicio2;
+package Lista5HerancaExercicio2.Lista5HerancaExercicio2;
 
 public class Aluno {
 
@@ -62,7 +62,7 @@ public class Aluno {
 		System.out.println("--------------------------------------------");
 		System.out.println("Nome: " +this.nome);
 		System.out.println("CPF: " +this.cpf);
-		System.out.println("Número de matrícula: " +this.numMatricula);
+		System.out.println("Nï¿½mero de matrï¿½cula: " +this.numMatricula);
 		System.out.println("Curso: " +this.curso);
 		System.out.println("Disciplinas: ");
 		this.mostrarDisciplinas();
