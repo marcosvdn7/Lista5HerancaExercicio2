@@ -6,6 +6,7 @@ public class Disciplina {
 	private String codigo;
 	private String cargaHoraria;
 	private Professor[] professores;
+	private Aluno[] alunos;
 	
 	public Disciplina() {}
 	
@@ -47,4 +48,13 @@ public class Disciplina {
 		this.professores = professores;
 	}
 
+	public Aluno[] getAlunos() {
+		return alunos;
+	}
+
+	public void setAlunos(Aluno[] alunos) {
+		this.alunos = alunos;
+	}
+
+	
 }
