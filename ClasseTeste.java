@@ -61,7 +61,7 @@ public class ClasseTeste {
 		String nomeCurso;
 		
 		//Loop usado para repetir e simular todo os sitema da universidade, só irá encerrar ao mudar o
-		//valor da variavel (opcao) para 8;
+		//valor da variavel (opcao) para 8, dentro dele vai ficar todo o resto do código.
 		while (opcao != 8) {
 			System.out.println("----------------Universidade----------------");
 			System.out.println("--------------------------------------------");
